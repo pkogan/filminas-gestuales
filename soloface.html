@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    canvas {
+      position: absolute;
+      left:10px;
+      top:50px;
+    }
+    #video{
+		position:absolute;
+		left:10px;
+		top:50px
+	}
+    .mensaje{
+		position:absolute;
+		top: 10px;
+		left: 10px;
+		color: red;
+		
+	}
+	
+  </style>
+</head>
+<body>
+
+	<div class="mensaje"><h1 id="estado">Estado</h1></div>
+  <video id="video" width="150" height="150" autoplay muted></video>
+  	
+  	
+</body>
+</html>
